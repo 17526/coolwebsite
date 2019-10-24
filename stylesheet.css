@@ -1,22 +1,23 @@
-.grid-container {
+.navbar {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  background-color: rgb(234, 188, 255);
+  background-color: rgb(207, 226, 241);
   padding: 10px;
 }
 
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+.body {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-auto-rows: 0%;
+  background-color: aliceblue;
+  padding: 10px;
 }
 
 body {
-    background-color: aliceblue;
-    text-align: center;
-  }
-  
+  background-color: aliceblue;
+  text-align: center;
+}
+
   h1 {
     color: black;
     text-align: center;
