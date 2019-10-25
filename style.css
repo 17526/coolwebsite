@@ -1,10 +1,25 @@
-h2 {
+.navbar {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-auto-rows: auto;
+  background-color: rgb(255, 217, 233);
+  text-align: center;
+  padding: 10px;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-auto-rows: auto;
+  column-gap: 20px;
+  padding: 15px;
+
+}h2 {
     color: black;
     text-align: center;
   }
   
 body {
-    background-color: aliceblue;
-    text-align: left;
+    background-color: rgb(255, 234, 253);
   }
   
