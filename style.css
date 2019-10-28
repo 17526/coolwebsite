@@ -17,9 +17,11 @@
 }h2 {
     color: black;
     text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
   
 body {
     background-color: rgb(255, 234, 253);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
   
