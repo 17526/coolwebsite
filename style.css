@@ -14,7 +14,9 @@
   column-gap: 20px;
   padding: 15px;
 
-}h2 {
+}
+
+h2 {
     color: black;
     text-align: center;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -25,3 +27,7 @@ body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
   
+p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: justify
+}
