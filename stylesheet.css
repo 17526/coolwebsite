@@ -97,3 +97,6 @@ slide p {
     100% { left: 100%; width: 0%; }
 }
 
+img {
+    float: right;
+}
