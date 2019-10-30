@@ -1,0 +1,11 @@
+.navbar {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+  }
+
+body {
+    font-family: "Lato", sans-serif}
+}
