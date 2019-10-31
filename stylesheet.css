@@ -99,11 +99,13 @@ slide p {
 
 img {
     float: right;
+    margin: 2%
 }
 div {
     column-count: 2;
     column-width: 60% 40%;
   }
+
 h1 {
     text-align: center;
 }
