@@ -100,3 +100,26 @@ slide p {
 img {
     float: right;
 }
+div {
+    column-count: 2;
+    column-width: 60% 40%;
+  }
+h1 {
+    text-align: center;
+}
+p {
+    margin: 5%
+}
+
+div.polaroid {
+    margin: 5%;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
