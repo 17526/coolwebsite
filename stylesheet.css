@@ -111,6 +111,7 @@ div {
   }
 
 h1 {
+    font-family: Arial;
     text-align: center;
 }
 p {
@@ -118,16 +119,28 @@ p {
     text-align: justify;
 }
 
-
 table {
     border-collapse: collapse;
-    border: none;
-  }
+    border-style: none;
+}
   
-  th,td {
-    border: none;
+th,td {
     margin: 5%;
-  }
-  
-  table.a {     
-  }
+    border-style: none;
+    vertical-align: top;
+    padding: 15px;
+}
+
+table.a {     
+}
+
+.footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 9%;
+    background-color: #e7e7e7;
+    text-align: center;
+
+}
