@@ -1,3 +1,6 @@
+body {
+    margin: 5%;
+}
 
 ul {
     list-style-type: none;
@@ -111,5 +114,20 @@ h1 {
     text-align: center;
 }
 p {
-    margin: 5%
+    margin: 5%;
+    text-align: justify;
 }
+
+
+table {
+    border-collapse: collapse;
+    border: none;
+  }
+  
+  th,td {
+    border: none;
+    margin: 5%;
+  }
+  
+  table.a {     
+  }
