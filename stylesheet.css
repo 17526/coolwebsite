@@ -1,9 +1,5 @@
-body {
-    margin: 5%;
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 5px;
-}
+
+/* Navbar */
 
 ul {
     list-style-type: none;
@@ -29,8 +25,11 @@ li a:hover {
     background-color: #111;
 }
 
+/* Slideshow */
+
 html, body {
     width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 105%;
     padding: 0;
     margin: 0px;
@@ -85,7 +84,7 @@ slide:nth-child(4){
 }
 
 slide p {
-    font-family: Veranda;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 70px;
     text-align: center;
     display: inline-block;
@@ -103,22 +102,25 @@ slide p {
     100% { left: 100%; width: 0%; }
 }
 
-img {
-    float: justify;
-    margin: 2%;
-}
-
-
 h1 {
-    font-family: Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 270%;
     background-color: rgba(240, 248, 255, 0) ;
     text-align: center;
 }
+
+body {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 p {
     margin: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
 }
+
+/* Tables For Layouts */
 
 table {
     border-collapse: collapse;
@@ -132,6 +134,7 @@ th,td {
     padding: 15px;
 }
 
+/* white border thing */
 
 div.polaroid {
     width: 100%;
@@ -144,6 +147,7 @@ div.polaroid {
     padding: 10px 20px;
   }
 
+/* Footer */
 
 .footer {
     position: relative;
@@ -153,9 +157,9 @@ div.polaroid {
     padding: 9%;
     background-color: #e7e7e7;
     text-align: center;
-
 }
 
+/* Parallax Scrolling effect/affect?? */
 
 .parallax {
 background-image: url("brocky.jpg");
@@ -166,7 +170,8 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-/* Colour Split in Social Media Page */
+
+/* Colour Split on Social Media Page */
 
 .split {
     height: 100%;
@@ -205,6 +210,8 @@ background-size: cover;
     width: 150px;
     border-radius: 50%;
   }
+
+  /* Social Media Icons */
   
   .fa {
     padding: 20px;
