@@ -141,32 +141,20 @@ div.polaroid {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
-  div.container {
-    text-align: center;
-    padding: 10px 20px;
-  }
-
-/* Footer */
-
-.footer {
-    position: relative;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 9%;
-    background-color: #e7e7e7;
-    text-align: center;
+div.container {
+  text-align: center;
+  padding: 10px 20px;
 }
 
 /* Parallax Scrolling effect/affect?? */
 
 .parallax {
-background-image: url("brocky.jpg");
-min-height: 65%; 
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+  background-image: url("brocky.jpg");
+  min-height: 65%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .parallax1 {
   background-image: url("lol.jpg");
@@ -181,70 +169,69 @@ background-size: cover;
 /* Colour Split on Social Media Page */
 
 .split {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 7;
-    overflow-x: hidden;
-    padding-top: 20px;
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 7;
+  overflow-x: hidden;
+  padding-top: 20px;
   }
   
-  .left {
-    left: 0;
-    background-color: rgb(17, 17, 17);
-  }
-  
-  .right {
-    right: 0;
-    background-color: rgb(77, 189, 218);
-  }
-  
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .centered img {
-    width: 150px;
-    border-radius: 50%;
+.left {
+  left: 0;
+  background-color: rgb(17, 17, 17);
   }
 
-  /* Social Media Icons */
-  
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-  
-  .fa:hover {
-      opacity: 0.5;
-  }
-  
-  .fa-twitter {
-    background: rgba(255, 255, 255, 0);
-    color: white;
-  }
-  
-  .fa-youtube {
-    background: #7c2a2a00;
-    color: white;
-  }
-  
-  .fa-instagram {
-    background: #ffffff00;
-    color: white;
-  }
-  
-  .fa-soundcloud {
-    background: #ff550000;
-    color: white;
-  }
-  
+.right {
+  right: 0;
+  background-color: rgb(77, 189, 218);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* Social Media Icons */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-twitter {
+  background: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+.fa-youtube {
+  background: #7c2a2a00;
+  color: white;
+}
+
+.fa-instagram {
+  background: #ffffff00;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff550000;
+  color: white;
+}
