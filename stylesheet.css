@@ -235,3 +235,7 @@ div.container {
   background: #ff550000;
   color: white;
 }
+
+iframe {
+  padding: 5%;
+}
