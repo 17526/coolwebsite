@@ -1,6 +1,7 @@
 body {
     margin: 5%;
     text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
 }
 
@@ -84,7 +85,7 @@ slide:nth-child(4){
 }
 
 slide p {
-    font-family: Comfortaa;
+    font-family: Veranda;
     font-size: 70px;
     text-align: center;
     display: inline-block;
@@ -106,10 +107,7 @@ img {
     float: justify;
     margin: 2%;
 }
-div {
-    column-count: 2;
-    column-width: 60% 40%;
-  }
+
 
 h1 {
     font-family: Arial;
@@ -118,6 +116,7 @@ h1 {
 }
 p {
     margin: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
 }
 
@@ -133,8 +132,6 @@ th,td {
     padding: 15px;
 }
 
-table.a {     
-}
 
 div.polaroid {
     width: 100%;
@@ -161,15 +158,84 @@ div.polaroid {
 
 
 .parallax {
-/* The image used */
 background-image: url("brocky.jpg");
-
-/* Set a specific height */
-min-height: 500px; 
-
-/* Create the parallax scrolling effect */
+min-height: 65%; 
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+
+/* Colour Split in Social Media Page */
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 7;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color: rgb(17, 17, 17);
+  }
+  
+  #logo{
+    width: 150%;
+    height: 200%;
+  }
+  
+  .right {
+    right: 0;
+    background-color: rgb(77, 189, 218);
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-twitter {
+    background: rgba(255, 255, 255, 0);
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #7c2a2a00;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #ffffff00;
+    color: white;
+  }
+  
+  .fa-soundcloud {
+    background: #ff550000;
+    color: white;
+  }
+  
